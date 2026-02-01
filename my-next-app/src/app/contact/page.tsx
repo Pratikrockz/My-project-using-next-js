@@ -1,7 +1,7 @@
 const page =()=>{
     return(
         <div>
-            NEW PAGE
+            file based routing
         </div>
     )
 }
