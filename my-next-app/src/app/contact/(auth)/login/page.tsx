@@ -3,6 +3,6 @@ import styles from './login.module.css'
 
 export default function loginPgae() {
   return (
-    <div className={styles.login}>loginPgae</div>
+    <div className={styles.login}>page</div>
   )
 }
