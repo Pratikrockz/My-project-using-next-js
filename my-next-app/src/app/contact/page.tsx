@@ -1,7 +1,7 @@
 const page =()=>{
     return(
         <div>
-            file based routings
+            Contactpage
         </div>
     )
 }
