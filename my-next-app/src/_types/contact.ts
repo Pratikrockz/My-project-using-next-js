@@ -1,5 +1,6 @@
-export interface UserType {
-    id: string;
-    email: string;
-    name: string
+export interface ContactType {
+    id?: string;
+    email?: string;
+    name?: string;
+    userId?: string | undefined
 }

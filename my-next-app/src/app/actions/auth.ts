@@ -21,7 +21,7 @@ export const LoginAction =async(formdata:FormData)=>{
     } catch (error) {
         throw new Error("Failed to Login")
     }
-     redirect("/contact")
+     redirect("/")
 };
 
 export const LogoutAction =async()=>{
