@@ -15,6 +15,8 @@ const Contactpage =async ()=>{
 
 }
 const contacts = await getContacts(user?.id);
+console.log(contacts);
+
 if(!contacts || contacts.length === 0){
     return (<div>
            Please <a href="/contact/new" className="text-blue-600 hover:underline">Add a Contact</a>{" "}

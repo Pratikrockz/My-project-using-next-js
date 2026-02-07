@@ -1,16 +1,25 @@
 {
-    "contacts":[
-        {
+  "contacts": [
+    {
             "id":"1",
             "name":"john doe",
             "email":"johnDoe@gmail.com",
             "userId":"1"
+        },
+        {
+            "id":"2",
+            "name":"john doe2",
+            "email":"johnDoe2@gmail.com",
+            "userId":"1"
         }
-    ],
-    "users":[{
-            "id":"1",
-            "name":"user1",
-            "email":"user1@gmail.com",
-            "password":"123456"
-        }]
+  ],
+  "users": [
+    {
+      "id": "1",
+      "name": "user1",
+      "email": "user1@gmail.com",
+      "password": "123456"
+    }
+  ]
+  
 }
